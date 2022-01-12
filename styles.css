@@ -24,7 +24,6 @@ body {
  right: 50%;*/
   background-image: url(https://ilhamnr.github.io/itc/assets/img/framekirix.svg),
     url(https://ilhamnr.github.io/itc/assets/img/framekanan.svg), url(https://ilhamnr.github.io/itc/assets/img/bg.svg);
-  background-size: contain, contain, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right, center;
 }
@@ -52,6 +51,18 @@ body {
 }
 @media (max-width: 952px) {
   body {
+    /*background-size: cover, cover, cover; */
+  }
+}
+@media (min-width: 628px) {
+  body {
+    background-size: contain, contain, cover;
+    /*background-size: cover, cover, cover; */
+  }
+}
+@media (min-width: 628px) {
+  body {
+    background-size: cover, cover, cover;
     /*background-size: cover, cover, cover; */
   }
 }
