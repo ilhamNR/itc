@@ -51,19 +51,17 @@ body {
 }
 @media (max-width: 952px) {
   body {
-    /*background-size: cover, cover, cover; */
   }
 }
 @media (min-width: 628px) {
   body {
     background-size: contain, contain, cover;
-    /*background-size: cover, cover, cover; */
   }
 }
 @media (min-width: 628px) {
   body {
     background-size: cover, cover, cover;
-    /*background-size: cover, cover, cover; */
+
   }
 }
 img {
