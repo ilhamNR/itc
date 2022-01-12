@@ -8,12 +8,12 @@ html {
 }
 body {
   height: 100%;
-  /* background-image:url("../assets/img/bg.jpg"); */
+  /* background-image:url("https://ilhamnr.github.io/itc.github.io/assets/img/bg.jpg"); */
   height: 10px;
   background-size: cover;
   opacity: 1;
   background-repeat: no-repeat;
-  /*  background-image: url(../assets/img/l2.png);*/
+  /*  background-image: url(https://ilhamnr.github.io/itc.github.io/assets/img/l2.png);*/
   font-family: "Open Sans", sans-serif;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -22,8 +22,8 @@ body {
   /*  width: 100%;
  left: 50%
  right: 50%;*/
-  background-image: url(/assets/img/framekirix.svg),
-    url(/assets/img/framekanan.svg), url(/assets/img/bg.svg);
+  background-image: url(https://ilhamnr.github.io/itc.github.io/assets/img/framekirix.svg),
+    url(https://ilhamnr.github.io/itc.github.io/assets/img/framekanan.svg), url(https://ilhamnr.github.io/itc.github.io/assets/img/bg.svg);
   background-size: contain, contain, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right, center;
@@ -79,7 +79,7 @@ img {
   left: 50%;
   right: 50%;
   /*  background-color:#75c4e0*/
-  /*  background-image: url(../assets/img/l1.png);*/
+  /*  background-image: url(https://ilhamnr.github.io/itc.github.io/assets/img/l1.png);*/
   font-family: "Open Sans", sans-serif;
   background-repeat: no-repeat;
 }
