@@ -22,8 +22,8 @@ body {
   /*  width: 100%;
  left: 50%
  right: 50%;*/
-  background-image: url(../assets/img/framekirix.svg),
-    url(../assets/img/framekanan.svg), url(../assets/img/bg.svg);
+  background-image: url(/assets/img/framekirix.svg),
+    url(/assets/img/framekanan.svg), url(/assets/img/bg.svg);
   background-size: contain, contain, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right, center;
