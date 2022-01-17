@@ -4,12 +4,12 @@
 }
 @font-face {
   font-family: "04B_30";
-  src: url(assets/fonts/04B_30_.woff) format("woff");
+  src: url(https://ilhamnr.github.io/itc/assets/fonts/04B_30_.woff) format("woff");
 }
 
 @font-face {
   font-family: "Rockwell";
-  src: url(assets/fonts/ROCK.woff) format("woff");
+  src: url(https://ilhamnr.github.io/itc/assets/fonts/ROCK.woff) format("woff");
 }
 .card-container {
   width: 100%;
@@ -40,7 +40,7 @@
 }
 .card-image {
   grid-area: image;
-  background: url("assets/img/LCC.png");
+  background: url("https://ilhamnr.github.io/itc/assets/img/LCC.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-top-left-radius: 15px;
@@ -105,7 +105,7 @@
 
 /*card2*/
 .card-image.card2 {
-  background: url("assets/img/Bistik.png");
+  background: url("https://ilhamnr.github.io/itc/assets/img/Bistik.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -119,7 +119,7 @@
 }
 /*card3*/
 .card-image.card3 {
-  background: url("img3.jpg");
+  background: url("https://ilhamnr.github.io/itc/img3.jpg");
   background-size: cover;
 }
 .card-text.card3 .date {
@@ -352,7 +352,7 @@ background-position: left, right, center;
  /* width: 60%; */
 }
 .deskripsi{
-  background-image: url(../web_2022/assets/img/descbox.svg);
+  background-image: url(https://ilhamnr.github.io/itc/ssets/img/descbox.svg);
   background-size: cover;
   font-size: 1rem;
   background-repeat: no-repeat;
@@ -370,7 +370,7 @@ background-position: left, right, center;
   padding: 30px;
   color: white;
   margin: 25px;
-  background-image: url(../web_2022/assets/img/descbox.svg);
+  background-image: url(https://ilhamnr.github.io/itc/assets/img/descbox.svg);
 height: 215px;
   background-repeat: no-repeat;
   width: 200px;
