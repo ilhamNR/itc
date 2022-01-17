@@ -1,42 +1,113 @@
 <!DOCTYPE html>
 <html>
-  <head>
-        <title>INFORMATION TECHNOLOGY COMPETITION 2021</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-        <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <!--<img src="<?= base_url() ?>/assets/img/l2.png">-->
-    <div class="container">
-    <!--div class="card-container">
-        <div class="card" onclick="LCC()" ">
-          <div class="card-image" ></div>
-        </div>
-        <div class="card" onclick="TIK()">
-          <div class="card-image card2"></div>
-        </div>
-      </div-->
-      <div class="txt">
-        <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " >DINUS FEST<br/></h5> 
-          <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " >INFORMATION<br/></h5>
-            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " >TECHNOLOGY<br/></h5>
-              <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " >COMPETITION<br/></h5>
-                <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " >2022<br/></h5>
-        
-      </div>
-      <div class="row">
-        <div class="logo-row">
-          <img src="https://ilhamnr.github.io/itc/assets/img/itc.png" alt="logo" class="logo">
-        </div>
-      </div>
-      <a href="#">
-        <span></span>
-        <div class="button">
-            Go
-        </div>
-    </a>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  </body>
+<head>
+  <title>INFORMATION TECHNOLOGY COMPETITION 2021</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+</head>
+
+<body>
+  <div class="logoimage">
+    <img style="margin: 20px;" src="../web_2022/assets/img/Logo UDINUS FIK 2.png" alt="">
+    <img style="margin: 20px;" src="../web_2022/assets/img/Logo HMTI 2.png" alt="">
+    <img style="margin: 20px;" src="../web_2022/assets/img/Dinusfest2022.svg" alt="">
+</div>
+  <!--<img src="<?= base_url() ?>/assets/img/l2.png">-->
+  <div class="container">
+    <div class="txt">
+      <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">DINUS FEST<br /></h5>
+      <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">INFORMATION<br />
+      </h5>
+      <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">TECHNOLOGY<br /></h5>
+      <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">COMPETITION<br />
+      </h5>
+      <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">2022<br /></h5>
+
+    </div>
+    <div class="row" >
+      <div class="logo-row">
+        <img src="assets/img/itc.png" alt="logo" class="logo">
+      </div>
+    </div>
+    <a class="startbutton" href="#" data-aos="fade-up">
+      <span></span>
+      <div class="button">
+        START
+      </div>
+    </a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</body>
+
+<body style="width:100%;text-align:center;overflow: hidden;">
+  <div class="bottomPage">
+    <div class="transition">
+      <div class="cover cover1"></div>
+      <div class="cover cover2"></div>
+      <div class="cover cover3"></div>
+    </div>
+    <div class="transition2">
+      <div class="cover cover1"></div>
+      <div class="cover cover2"></div>
+      <div class="cover cover3"></div>
+    </div>
+    <button type="button" class="btn-close btnBottom">
+      <span class="icon-cross"></span>
+    </button>
+    <div class="container competition">
+      <div class="txt" style="position: relative;">
+        <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">SELECT
+          COMPETITION<br /></h5>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class=" card-image">
+            <a style="  padding: 135px 225px; border: 0;" href="lcc.html" class="link"></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image card2">
+            <a style="  padding: 135px 225px; border: 0;" href="bistik.html" class="link2"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  const link = document.querySelector(".link");
+  const transition = document.querySelector(".transition");
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    transition.classList.add("slide");
+    setTimeout(() => {
+      window.location = link.href;
+    }, 900);
+  });
+  
+</script>
+<script>
+  const link2 = document.querySelector(".link2");
+  const transition2 = document.querySelector(".transition2");
+  link2.addEventListener("click", (e) => {
+    e.preventDefault();
+    transition2.classList.add("slide2");
+    setTimeout(() => {
+      window.location = link2.href;
+    }, 900);
+  });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </html>

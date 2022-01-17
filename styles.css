@@ -5,12 +5,13 @@
 body,
 html {
   min-height: 100%;
+  min-width: 100%;
 }
 body {
   height: 100%;
+  width: 100%;
   /* background-image:url("../assets/img/bg.jpg"); */
   height: 10px;
-  background-size: cover;
   opacity: 1;
   background-repeat: no-repeat;
   /*  background-image: url(../assets/img/l2.png);*/
@@ -22,8 +23,8 @@ body {
   /*  width: 100%;
  left: 50%
  right: 50%;*/
-  background-image: url(https://ilhamnr.github.io/itc/assets/img/framekirix.svg),
-    url(https://ilhamnr.github.io/itc/assets/img/framekanan.svg), url(https://ilhamnr.github.io/itc/assets/img/bg.svg);
+  background-image: url(assets/img/framekirix.svg),
+    url(assets/img/framekanan.svg), url(assets/img/bg.svg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right, center;
 }
@@ -33,51 +34,151 @@ body {
   align-items: center;
   height: 80vh;
 }
-@media (min-width: 320px) and (min-height: 320px) {
-  body {
-  }
-}
+
 @media (min-width: 1025px) {
-  body {
-  }
   .txt {
     margin-top: 0%;
   }
+  .card-container {
+    display: flex;
+  }
+  .logo {
+    width: 0px;
+    height: 0px;
+  }
+  .startbutton {
+    margin-top: 576px;
+  }
+  .competition{
+    margin-top: 0%;
+  }
+  .grandprizetxt{
+    top:150%
+  }
+.timeline ul {
+    list-style: none;
+    display: flex;
+}
+.tropyimage{
+  display: flex;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.deskripsi{
+  left: 65%;
+  top: 58%;
+}
+.descriptiontxt{
+  top:15%
+}
+.posterprops{
+  left: 30%;
+  top: 67%;
+  transform: translate(-50%, -45%);
+  width :30%
+}
+.schedule{
+  top: 110%;
+  left: 64%;
+}
+.timelineprops{
+  position: absolute;
+  top: 200%;
+}
+.registrationbutton{
+  margin-top: 25%;
+}
+.registrationbutton-lcc{
+  margin-top: 0;
+}
 }
 @media (max-width: 1025px) {
   .txt {
     margin-top: -56%;
   }
-}
-@media (max-width: 952px) {
-  body {
+  .card-container {
+    display: grid;
+  }
+  .logo {
+    top: 140%;
+    left: 49%;
+    transform: translate(-25%, 10%);
+  }
+    .startbutton {
+      margin-top: 1297px;
+  }
+  .competition{
+    margin-top: 20%;
+  }
+  .grandprizetxt{
+    top:159%
+  }
+  .tropyimage{
+    display: flex;
+    position: absolute;
+    top: 122%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .deskripsi{
+    left: 50%;
+    top: 72%;
+  }
+  .descriptiontxt{
+    top:45%
+  }
+  .posterprops{
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -45%);
+    width :40%
+  }
+  .schedule{
+    top: 100%;
+    left: 50%;
+  }
+  .timelineprops{
+    position: absolute;
+    top: 160%;
+  }
+  .registrationbutton{
+    margin-top: 80%;
+  }
+  .registrationbutton-lcc{
+    margin-top: 0;
   }
 }
-@media (min-width: 628px) {
+
+@media (max-height: 999999px) {
   body {
     background-size: contain, contain, cover;
   }
-}
-@media (max-width: 628px) {
-  body {
-    background-size: cover, cover, cover;
-
+  .bottomPage {
+    background-size: contain, contain, cover;
   }
 }
+
+@media (max-width: 980px) {
+  body {
+    background-size: cover, cover, cover;
+  }
+  .bottomPage {
+    background-size: cover, cover, cover;
+  }
+}
+
 img {
   margin: 0px;
   padding: 0px;
-  width: 100%;
-  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: flex;
-  position: absolute;
-  left: 50%;
-  top: 37%;
-  transform: translate(-50%, -45%);
 }
+
 .container {
   height: 100%;
   display: flex;
@@ -255,3 +356,155 @@ select::-ms-expand {
     stroke-dashoffset: 1700;
   }
 }
+
+.box{
+  width:50%;
+  padding: 10px;
+  display: flex;
+  }
+  
+  .scheduletext{
+    font-size: 39px;
+    color: white;
+    text-shadow: 10px 10px black;
+    font-family: "04B_30";
+    display: flex;
+    align-items: center;
+  }
+
+  .footer{
+    bottom: 0;
+    background: #0367A5;
+    height: auto;
+    width: 100% !important;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 40px;
+    color: #ffffff;
+    margin-top: 60px;
+  }
+  .footer-col{
+    width: 40%;
+    padding: 0 0px;
+    justify-content: space-between;
+  }
+  @media (min-width:800px) {
+    .footer-col .samping{
+      padding-top:58px;
+    }
+    .worktext h3 {
+      font-size: 5vw;}
+  }
+  @media (max-width:800px) {
+    .footer-col .samping{
+      margin-top: -20px;
+    }
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+  }
+  .footer-col ul{
+    text-align: left;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #d8d8d8;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 0;
+    border: 0;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  } 
+  
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  
+    }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  .footer-bottom{
+    background: #0367A5;
+    width: 100% !important;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  .logoimage{
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+  }
