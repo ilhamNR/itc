@@ -75,9 +75,9 @@ body {
 }
 .posterprops{
   left: 30%;
-  top: 67%;
+  top: 73%;
   transform: translate(-50%, -45%);
-  width :30%
+  width :33%
 }
 .schedule{
   top: 110%;
@@ -103,7 +103,7 @@ body {
 
 }
 .timelinetxt{
-  top:175%;
+  top:181%;
  }
  .footer-col{
   width: 40%;
