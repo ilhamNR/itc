@@ -411,4 +411,5 @@ background-position: left, right, center;
 
 .poster{
   position: absolute;
+  border-radius: 30px;
 }
