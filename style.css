@@ -173,7 +173,6 @@ a span {
 
 .button {
   text-align: center;
-  font-size: 62px;
   color: white;
   text-shadow: 10px 10px black;
   font-family: "04B_30";
@@ -352,13 +351,16 @@ background-position: left, right, center;
  /* width: 60%; */
 }
 .deskripsi{
-  background-image: url(https://ilhamnr.github.io/itc/assets/img/descbox.svg);
+  background: rgba(230,230,230,0.5);
+  border: 6px solid #97DEF3;
+  border-radius: 25px;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   position: absolute;
   transform: translate(-50%, -45%);
   font-family: "Rockwell";
+  margin-inline: 10px;
 }
 
 .timeline{
@@ -366,19 +368,15 @@ background-position: left, right, center;
   
 }
 .timeline ul li {
-  padding: 30px;
   color: white;
   margin: 25px;
   background-image: url(https://ilhamnr.github.io/itc/assets/img/descbox.svg);
-height: 238px;
   background-repeat: no-repeat;
-  width: 300px;
 }
 .timeline ul li:last-child{
   margin-bottom: 0;
 }
 .timeline-content h1{
-  font-size: 40px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
@@ -394,7 +392,6 @@ height: 238px;
   font-weight: 300;
 }
 .timeline-content .date{
-  font-size: 24px;
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: 2px;

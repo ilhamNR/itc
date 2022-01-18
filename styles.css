@@ -59,6 +59,11 @@ body {
     list-style: none;
     display: flex;
 }
+.timeline ul li {
+  padding: 27px;
+  height: 228px;
+  width: 233px;
+}
 .tropyimage{
   display: flex;
   position: absolute;
@@ -122,7 +127,15 @@ body {
   top: 144%;
   left: 50%;
 }
-
+.button{
+  font-size: 30px;
+}
+.timeline-content .date {
+  font-size: 15px;
+}
+.timeline-content h1 {
+  font-size: 29px;
+}
 }
 @media (max-width: 1025px) {
   .txt {
@@ -209,6 +222,20 @@ body {
     transform: translate(-50%, -50%);
     top: 122%;
     left: 50%;
+  }
+  .button{
+    font-size: 62px;
+  }
+  .timeline ul li {
+    padding: 30px;
+    height: 238px;
+    width: 300px;
+  }
+  .timeline-content .date {
+    font-size: 24px;
+  }
+  .timeline-content h1 {
+    font-size: 40px;
   }
 }
 
