@@ -108,6 +108,13 @@ body {
  .footer-col{
   width: 40%;
 }
+.deskripsitxt{
+  font-size: 1rem;
+
+}
+.lombatxt{
+  top: 13%;
+}
 }
 @media (max-width: 1025px) {
   .txt {
@@ -128,39 +135,39 @@ body {
     margin-top: 20%;
   }
   .grandprizetxt{
-    top:159%
+    top:181%
   }
   .tropyimage{
     display: flex;
     position: absolute;
-    top: 122%;
+    top: 146%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .deskripsi{
     left: 50%;
-    top: 72%;
+    top: 96%;
   }
   .descriptiontxt{
     top:45%
   }
   .posterprops{
     left: 50%;
-    top: 40%;
+    top: 48%;
     transform: translate(-50%, -45%);
-    width :40%
+    width :80%
   }
   .schedule{
-    top: 100%;
+    top: 125%;
     left: 50%;
   }
   .timelineprops{
     position: absolute;
-    top: 160%;
+    top: 183%;
   }
   .registrationbutton{
-    margin-top: 80%;
+    margin-top: 150%;
   }
   .registrationbutton-lcc{
     margin-top: 50%;
@@ -176,11 +183,18 @@ body {
     text-align: -webkit-center;
   }
   .timelinetxt{
-   top:175%;
+   top:205%;
   }
   .footer-col{
     width: 75%;
     margin-bottom:35px ;
+  }
+  .deskripsitxt{
+    width: fit-content;
+    font-size: 1.5rem;
+  }
+  .lombatxt{
+    top: 40%;
   }
 }
 
