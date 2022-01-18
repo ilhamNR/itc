@@ -53,7 +53,7 @@ body {
     margin-top: 0%;
   }
   .grandprizetxt{
-    top:150%
+    top:175%
   }
 .timeline ul {
     list-style: none;
@@ -62,7 +62,7 @@ body {
 .tropyimage{
   display: flex;
   position: absolute;
-  top: 140%;
+  top: 165%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -85,13 +85,14 @@ body {
 }
 .timelineprops{
   position: absolute;
-  top: 200%;
+  top: 225%;
 }
 .registrationbutton{
-  margin-top: 25%;
+  margin-top: 40%;
+  display: flex;
 }
 .registrationbutton-lcc{
-  margin-top: 23%;
+  margin-top: 45%
 }
 .txtintro{
   top: 30%;
@@ -103,7 +104,7 @@ body {
 
 }
 .timelinetxt{
-  top:181%;
+  top:205%;
  }
  .footer-col{
   width: 40%;
@@ -115,6 +116,13 @@ body {
 .lombatxt{
   top: 13%;
 }
+.rulebook{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 144%;
+  left: 50%;
+}
+
 }
 @media (max-width: 1025px) {
   .txt {
@@ -135,12 +143,12 @@ body {
     margin-top: 20%;
   }
   .grandprizetxt{
-    top:183%
+    top:200%
   }
   .tropyimage{
     display: flex;
     position: absolute;
-    top: 146%;
+    top: 160%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -159,18 +167,18 @@ body {
     width :80%
   }
   .schedule{
-    top: 125%;
+    top: 138%;
     left: 50%;
   }
   .timelineprops{
     position: absolute;
-    top: 183%;
+    top: 197%;
   }
   .registrationbutton{
-    margin-top: 150%;
+    margin-top: 180%;
   }
   .registrationbutton-lcc{
-    margin-top: 50%;
+    margin-top: 70%;
   }
   .txtintro{
     top: 50%;
@@ -183,7 +191,7 @@ body {
     text-align: -webkit-center;
   }
   .timelinetxt{
-   top:205%;
+   top:220%;
   }
   .footer-col{
     width: 75%;
@@ -195,6 +203,12 @@ body {
   }
   .lombatxt{
     top: 40%;
+  }
+  .rulebook{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 122%;
+    left: 50%;
   }
 }
 

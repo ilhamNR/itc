@@ -370,15 +370,15 @@ background-position: left, right, center;
   color: white;
   margin: 25px;
   background-image: url(https://ilhamnr.github.io/itc/assets/img/descbox.svg);
-height: 215px;
+height: 238px;
   background-repeat: no-repeat;
-  width: 200px;
+  width: 300px;
 }
 .timeline ul li:last-child{
   margin-bottom: 0;
 }
 .timeline-content h1{
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
@@ -392,7 +392,7 @@ height: 215px;
   font-weight: 300;
 }
 .timeline-content .date{
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: 2px;
