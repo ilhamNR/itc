@@ -40,7 +40,18 @@
       </div>
     </a>
   </div>
+  <div class="animate">
+    <!-- SVG Code -->
+  <svg version="1.1" id="dinus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 300" enable-background="new 0 0 800 300" xml:space="preserve">
+  <text transform="matrix(1 0 0 1 4.2921 210.0535)" font-size="110" text-align="center">DinusFest 2022</text>
+  </svg>
+</div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    setTimeout(function(){
+      $('.animate').fadeToggle();
+    },2500);
+    </script>
 
 </body>
 
@@ -92,9 +103,9 @@ position: fixed;">
   link.addEventListener("click", (e) => {
     e.preventDefault();
     transition.classList.add("slide");
-    setTimeout(() => {
+    setTimeout(function() {
       window.location = link.href;
-    }, 900);
+    }, 3000);
   });
   
 </script>
@@ -104,9 +115,9 @@ position: fixed;">
   link2.addEventListener("click", (e) => {
     e.preventDefault();
     transition2.classList.add("slide2");
-    setTimeout(() => {
+    setTimeout(function() {
       window.location = link2.href;
-    }, 900);
+    }, 3000);
   });
 </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
