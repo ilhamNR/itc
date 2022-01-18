@@ -13,3 +13,7 @@ $(".btnBottom").click(function () {
 $(".btnTop").click(function () {
   $(".topPage").toggleClass("activeTop");
 });
+
+$(".btnDetails").click(function () {
+  window.location.href = 'index.html';
+});

@@ -93,6 +93,9 @@ body {
 .registrationbutton-lcc{
   margin-top: 0;
 }
+.txtintro{
+  top: 30%;
+}
 }
 @media (max-width: 1025px) {
   .txt {
@@ -149,6 +152,9 @@ body {
   }
   .registrationbutton-lcc{
     margin-top: 0;
+  }
+  .txtintro{
+    top: 50%;
   }
 }
 
