@@ -6,15 +6,15 @@
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="icon" type="image/png" href="https://ilhamnr.github.io/itc/favicon.ico"/>
+  <link rel="icon" type="image/png" href="<?= base_url() ?>/favicon.ico"/>
   
 </head>
 
 <body>
   <div class="logoimage" >
-    <img style="margin: 20px; width: 100px" src="https://ilhamnr.github.io/itc/assets/img/Logo UDINUS FIK 2.png" alt="" data-aos="fade-up">
-    <img style="margin: 20px; width: 100px" src="https://ilhamnr.github.io/itc/assets/img/Logo HMTI 2.png" alt="" data-aos="fade-up">
-    <img style="margin: 20px; width: 100px" src="https://ilhamnr.github.io/itc/assets/img/Dinusfest2022.svg" alt="" data-aos="fade-up">
+    <img style="margin: 20px; width: 100px" src="<?= base_url() ?>/assets/img/Logo UDINUS FIK 2.png" alt="" data-aos="fade-up">
+    <img style="margin: 20px; width: 100px" src="<?= base_url() ?>/assets/img/Logo HMTI 2.png" alt="" data-aos="fade-up">
+    <img style="margin: 20px; width: 100px" src="<?= base_url() ?>/assets/img/Dinusfest2022.svg" alt="" data-aos="fade-up">
 </div>
   <!--<img src="<?= base_url() ?>/assets/img/l2.png">-->
   <div class="container">
@@ -30,7 +30,7 @@
     </div>
     <div class="row" data-aos="fade-up"data-aos-duration='1500'>
       <div class="logo-row">
-        <img src="https://ilhamnr.github.io/itc/assets/img/itc.png" alt="logo" class="logo">
+        <img src="<?= base_url() ?>/assets/img/itc.png" alt="logo" class="logo">
       </div>
     </div>
     <a class="startbutton" href="#">
@@ -79,24 +79,21 @@ position: fixed;">
           COMPETITION<br /></h5>
       </div>
       <div class="card-container">
-        <div class="card">
-          <div class=" card-image">
-            <a style="  padding: 135px 225px; border: 0;" href="lcc.html" class="link"></a>
+        <div class="card" onclick="lcc()">
+          <div class="card-image">
+            <a style="padding: 135px 225px; border: 0;" class="link"></a>
           </div>
         </div>
-        <div class="card">
+        <div class="card" onclick="bistik()">
           <div class="card-image card2">
-            <a style="  padding: 135px 225px; border: 0;" href="bistik.html" class="link2"></a>
+            <a style="padding: 135px 225px; border: 0;" class="link2"></a>
           </div>
         </div>
       </div>
     </div>
 </body>
-
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="<?= base_url() ?>/assets/js/main.js"></script>
 <script>
   const link = document.querySelector(".link");
   const transition = document.querySelector(".transition");
@@ -108,6 +105,9 @@ position: fixed;">
     }, 3000);
   });
   
+  function lcc() {
+    window.location.href = '<?= base_url("lomba-cerdas-cermat") ?>';
+  }  
 </script>
 <script>
   const link2 = document.querySelector(".link2");
@@ -119,10 +119,13 @@ position: fixed;">
       window.location = link2.href;
     }, 3000);
   });
+      
+  function bistik() {
+    window.location.href = '<?= base_url("bisnis-tik") ?>';
+  }
 </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-
 </html>

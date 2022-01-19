@@ -10,11 +10,11 @@ html {
 body {
   height: 100%;
   width: 100%;
-  /* background-image:url("../assets/img/bg.jpg"); */
+  /* background-image:url("../img/bg.jpg"); */
   height: 10px;
   opacity: 1;
   background-repeat: no-repeat;
-  /*  background-image: url(../assets/img/l2.png);*/
+  /*  background-image: url(../img/l2.png);*/
   font-family: "Open Sans", sans-serif;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -23,8 +23,8 @@ body {
   /*  width: 100%;
  left: 50%
  right: 50%;*/
-  background-image: url(assets/img/framekirix.svg),
-    url(assets/img/framekanan.svg), url(assets/img/bg.svg);
+  background-image: url(../img/framekirix.svg),
+    url(../img/framekanan.svg), url(../img/bg.svg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, right, center;
 }
@@ -276,7 +276,7 @@ img {
   left: 50%;
   right: 50%;
   /*  background-color:#75c4e0*/
-  /*  background-image: url(../assets/img/l1.png);*/
+  /*  background-image: url(../img/l1.png);*/
   font-family: "Open Sans", sans-serif;
   background-repeat: no-repeat;
 }

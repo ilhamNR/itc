@@ -4,12 +4,12 @@
 }
 @font-face {
   font-family: "04B_30";
-  src: url(https://ilhamnr.github.io/itc/assets/fonts/04B_30_.woff) format("woff");
+  src: url(../fonts/04B_30_.woff) format("woff");
 }
 
 @font-face {
   font-family: "Rockwell";
-  src: url(https://ilhamnr.github.io/itc/assets/fonts/ROCK.woff) format("woff");
+  src: url(../fonts/ROCK.woff) format("woff");
 }
 .card-container {
   width: 100%;
@@ -40,7 +40,7 @@
 }
 .card-image {
   grid-area: image;
-  background: url("https://ilhamnr.github.io/itc/assets/img/LCC.png");
+  background: url("../img/LCC.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-top-left-radius: 15px;
@@ -105,7 +105,7 @@
 
 /*card2*/
 .card-image.card2 {
-  background: url("https://ilhamnr.github.io/itc/assets/img/Bistik.png");
+  background: url("../img/Bistik.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -251,8 +251,8 @@ a span {
   width: 100%;
   transition: all 2s;
   text-align: left;
-  background-image: url(assets/img/kiridetail.svg),
-  url(assets/img/kanandetail.svg), url(assets/img/bgdetail.svg);
+  background-image: url(../img/kiridetail.svg),
+  url(../img/kanandetail.svg), url(../img/bgdetail.svg);
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-position: left, right, center;
 background-repeat: repeat-y, repeat-y, repeat-y;
@@ -270,8 +270,8 @@ background-repeat: repeat-y, repeat-y, repeat-y;
   width: 100%;
   transition: all 2s;
   text-align: left;
-  background-image: url(assets/img/framekirix.svg),
-  url(assets/img/framekanan.svg), url(assets/img/bg.svg);
+  background-image: url(../img/framekirix.svg),
+  url(../img/framekanan.svg), url(../img/bg.svg);
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-position: left, right, center;
 }
@@ -370,7 +370,7 @@ background-position: left, right, center;
 .timeline ul li {
   color: white;
   margin: 25px;
-  background-image: url(https://ilhamnr.github.io/itc/assets/img/descbox.svg);
+  background-image: url(../img/descbox.svg);
   background-repeat: no-repeat;
 }
 .timeline ul li:last-child{

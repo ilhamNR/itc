@@ -2,16 +2,15 @@
 <html lang="en">
 
 <head>
-    <title>Lomba Cerdas Cermat ITC 2022</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Bisnis TIK ITC 2022</title>
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="icon" type="image/png" href="favicon.ico"/>
-    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link rel="icon" type="image/png" href="<?= base_url() ?>/favicon.ico"/>
 </head>
 
-<body data-aos="fade-right" style="width:100%;text-align:center; background-image: url(assets/img/kiridetail.svg),
-url(assets/img/kanandetail.svg), url(assets/img/bgdetail.svg);
+<body data-aos="fade-right" style="width:100%;text-align:center; background-image: url(<?= base_url() ?>/assets/img/kiridetail.svg),
+url(<?= base_url() ?>/assets/img/kanandetail.svg), url(<?= base_url() ?>/assets/img/bgdetail.svg);
 background-repeat: repeat-y, repeat-y, no-repeat;
 background-position: left, right, center;
   background-position: left, right, center;
@@ -19,40 +18,38 @@ background-position: left, right, center;
     <button type="button" class="btn-close btnDetails">
         <span class="icon-cross"></span>
     </button>
-    
     <div class="container details">
         <div class="txt lombatxt">
-            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">LOMBA
-                CERDAS CERMAT<br /></h5>
+            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; ">Bisnis TIK<br /></h5>
         </div>
-        <img class="poster posterprops" src="https://ilhamnr.github.io/itc/assets/img/LCC.svg">
+        <img class="poster posterprops" src="<?= base_url() ?>/assets/img/BISTIK.svg">
 
-        <div class="deskripsi deskripsitxt">
-            <h2 style="padding: 50px;">LCC is held for high school and vocational students throughout Indonesia. Which aims to increase knowledge and insight in the IT field as well as deepen their understanding of technological developments and competitive agility in answering questions quickly and accurately. This activity is planned to take place at the annual DinusFest event.</h2>
+        <div class="deskripsi  deskripsitxt">
+            <h2 style="padding: 50px;">"Bisnis TIK" competition was held for high school, vocational and college students throughout Indonesia. Where participants coordinate with their teammates in making business ideas, start-ups, and business development oriented to IT products and present the results of their ideas to the jury.</h2>
         </div>
     </div>
     <div class="rulebook">
-      <a href="#" data-aos="fade-up" style="border: 6px solid #03e9f4;">
-        <span></span>
-        <div class="button">
-          RULEBOOK
-        </div>
-      </a>
-    </div>
+        <a href="#" data-aos="fade-up" style="border: 6px solid #03e9f4;">
+          <span></span>
+          <div class="button">
+            RULEBOOK
+          </div>
+        </a>
+      </div>
     <div class="schedule">
         <div class="box" data-aos="fade-up">
-            <img src="https://ilhamnr.github.io/itc/assets/img/calender.svg" style="width: 100px;">
+            <img src="<?= base_url() ?>/assets/img/calender.svg" style="width: 100px;">
             <span class="scheduletext" style="text-align: left;
             font-size: 27px;">16 FEBRUARY 2021</span>
         </div>
         <div style="display:flex" data-aos="fade-up">
             <div class="box">
-                <img src="https://ilhamnr.github.io/itc/assets/img/maps.svg" style="width: 100px;">
+                <img src="<?= base_url() ?>/assets/img/maps.svg" style="width: 100px;">
                 <span class="scheduletext">Zoom</span>
             </div>
 
             <div class="box" data-aos="fade-up">
-                <img src="https://ilhamnr.github.io/itc/assets/img/time.svg" style="width: 100px;">
+                <img src="<?= base_url() ?>/assets/img/time.svg" style="width: 100px;">
                 <span class="scheduletext">07:00 WIB</span>
             </div>
 
@@ -60,16 +57,16 @@ background-position: left, right, center;
     </div>
     <div class="container grandprizetxt">
         <div class="tropyimage">
-            <img src="https://ilhamnr.github.io/itc/assets/img/juara1.svg" alt=""data-aos="fade-up">
-            <img src="https://ilhamnr.github.io/itc/assets/img/juara2.svg" alt=""data-aos="fade-up">
-            <img src="https://ilhamnr.github.io/itc/assets/img/juara3.svg" alt=""data-aos="fade-up">
+            <img src="<?= base_url() ?>/assets/img/juara1.svg" alt=""data-aos="fade-up">
+            <img src="<?= base_url() ?>/assets/img/juara2.svg" alt=""data-aos="fade-up">
+            <img src="<?= base_url() ?>/assets/img/juara3.svg" alt=""data-aos="fade-up">
         </div>
         <div class="txt grandprizetxt">
-            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " data-aos="fade-up">TOTAL
+            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; "data-aos="fade-up">TOTAL
                 GRANDPRIZE<br /></h5>
-            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; " data-aos="fade-up">IDR
-                2.250.000<br /></h5>
-                <h5 style="text-align: center; font-size:42px; color: white; text-shadow: 0; font-family: 'Rockwell'" data-aos="fade-up">Free E-certificate and UDINUS Scholarship voucher*<br></h5>
+            <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; "data-aos="fade-up">IDR
+                4.500.000<br /></h5>
+                <h5 style="text-align: center; font-size:42px; color: white; text-shadow: 0; font-family: 'Rockwell' "data-aos="fade-up" font-family: "Rockwell";>Free E-certificate and UDINUS Scholarship voucher*<br></h5>
         </div>
     </div>
     <div class="container timeline">
@@ -82,12 +79,39 @@ background-position: left, right, center;
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 45px;">19 - 07</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 06</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
-                        <h1>Registration</h1>
+                        <h1>Registration </h1>
                     </div>
                 </li>
+                <li>
+                    <div class="timeline-content">
+                        <h2 class="date" style="font-size: 30px;">19d - 07</h2>
+                        <h2 class="date">January-<br>February 2022</h2>
+                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
+                        <h1>Proposal Submission</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h2 class="date" style="font-size: 30px;">08 - 14</h2>
+                        <h2 class="date">February 2022</h2>
+                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
+                        <h1>Proposal Qualification</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
+                        <h2 class="date" style="font-size: 40px;">15</h2>
+                        <h2 class="date">February 2022</h2>
+                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
+                        <h1>Qualified Proposal Announcement</h1>
+                    </div>
+                </li>
+            </ul>
+            <ul style="
+            place-content: center;">
                 <li>
                     <div class="timeline-content">
                         <h2 class="date" style="font-size: 40px;">08</h2>
@@ -106,16 +130,15 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">16</h2>
+                        <h2 class="date" style="font-size: 40px;">17</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Competition Day</h1>
                     </div>
                 </li>
-            </ul> 
-            <ul style="justify-content: center">   <li>
+                <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">16</h2>
+                        <h2 class="date" style="font-size: 40px;">17</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Winner <br>  Announcement</h1>
@@ -124,14 +147,21 @@ background-position: left, right, center;
             </ul>
         </div>
     </div>
-
     </div>
-      <a class="registrationbutton-lcc" href="https://eventreg.dinus.ac.id/events/eventreg/DNF22" data-aos="fade-up">
-        <span></span>
-        <div class="button" style="margin: 10px;">
-          REGISTRATION
+        <div class="registrationbutton" style="margin-inline: 10px;">
+            <a href="https://eventreg.dinus.ac.id/events/eventreg/MDNF22" style="margin: 10px;" data-aos="fade-up">
+                <span></span>
+                <div class="button">
+                  SENIOR HIGH SCHOOL REGISTRATION
+                </div>
+              </a>
+              <a href="https://eventreg.dinus.ac.id/events/eventreg/MDNF22" style="margin: 10px;"data-aos="fade-up">
+                <span></span>
+                <div class="button">
+                  COLLEGE STUDENT REGISTRATION
+                </div>
+              </a>
         </div>
-      </a>
       <footer id="faq" class="footer">
         <div class="isi">
           <div class="row rowfooter">
@@ -163,7 +193,6 @@ background-position: left, right, center;
                     Website HMTI</a></li>
               </ul>
             </div>
-            
           </div>
         </div>
         <div class="footer-bottom">
@@ -179,7 +208,7 @@ background-position: left, right, center;
 <script src="assets/js/main.js"></script>
 <script>
     function LCC() {
-        window.location.href = "lcc.html";
+        window.location.href = "lcc.php";
     }
 
     function TIK() {
