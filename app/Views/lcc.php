@@ -27,7 +27,7 @@ background-position: left, right, center;
         <img class="poster posterprops" src="<?= base_url() ?>/assets/img/LCC.svg">
 
         <div class="deskripsi deskripsitxt">
-            <h2 style="padding: 50px;">LCC is held for high school and vocational students throughout Indonesia. Which aims to increase knowledge and insight in the IT field as well as deepen their understanding of technological developments and competitive agility in answering questions quickly and accurately.</h2>
+            <h2 style="padding: 50px;">LCC is held for high school and vocational students in Indonesia. Its to increase knowledge and insight in the IT field and test their understanding of technological developments and competitive agility in answering questions quickly and accurately. This activity is planned to take place on Feb 16th 2022, along with the DinusFest event.</h2>
         </div>
     </div>
     <div class="rulebook">
