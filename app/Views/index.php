@@ -79,14 +79,14 @@ position: fixed;">
           COMPETITION<br /></h5>
       </div>
       <div class="card-container">
-        <div class="card" onclick="lcc()">
+        <div class="card" onclick="lcc()" style="box-shadow: none;">
           <div class="card-image">
-            <a style="padding: 135px 225px; border: 0;" class="link"></a>
+            <a style="padding: 135px 225px; border: 0; opacity: 0;" class="link"></a>
           </div>
         </div>
-        <div class="card" onclick="bistik()">
+        <div class="card" onclick="bistik()" style="box-shadow: none;">
           <div class="card-image card2">
-            <a style="padding: 135px 225px; border: 0;" class="link2"></a>
+            <a style="padding: 135px 225px; border: 0; opacity: 0;" class="link2"></a>
           </div>
         </div>
       </div>
