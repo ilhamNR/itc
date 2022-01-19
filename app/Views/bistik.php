@@ -95,29 +95,29 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
+                        <h2 class="date" style="font-size: 40px;">08</h2>
+                        <h2 class="date">February 2022</h2>
+                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
+                        <h1>Technical Meeting</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
                         <h2 class="date" style="font-size: 30px;">08 - 14</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Qualification</h1>
                     </div>
                 </li>
-                <li>
+            </ul>
+            <ul style="
+            place-content: center;">
+             <li>
                     <div class="timeline-content">
                         <h2 class="date" style="font-size: 40px;">15</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Qualified Proposal Announcement</h1>
-                    </div>
-                </li>
-            </ul>
-            <ul style="
-            place-content: center;">
-                <li>
-                    <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">08</h2>
-                        <h2 class="date">February 2022</h2>
-                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
-                        <h1>Technical Meeting</h1>
                     </div>
                 </li>
                 <li>
