@@ -104,10 +104,6 @@ position: fixed;">
       window.location = link.href;
     }, 3000);
   });
-  
-  function lcc() {
-    window.location.href = '<?= base_url("lomba-cerdas-cermat") ?>';
-  }  
 </script>
 <script>
   const link2 = document.querySelector(".link2");
@@ -119,6 +115,11 @@ position: fixed;">
       window.location = link2.href;
     }, 3000);
   });
+</script>
+<script>
+  function lcc() {
+    window.location.href = '<?= base_url("lomba-cerdas-cermat") ?>';
+  }
       
   function bistik() {
     window.location.href = '<?= base_url("bisnis-tik") ?>';
