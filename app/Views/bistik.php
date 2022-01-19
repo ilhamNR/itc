@@ -25,7 +25,7 @@ background-position: left, right, center;
         <img class="poster posterprops" src="<?= base_url() ?>/assets/img/BISTIK.svg">
 
         <div class="deskripsi  deskripsitxt">
-            <h2 style="padding: 50px;">"Bisnis TIK" competition was held for high school, vocational and college students throughout Indonesia. Where participants coordinate with their teammates in making business ideas, start-ups, and business development oriented to IT products and present the results of their ideas to the jury.</h2>
+            <h2 style="padding: 50px;">Bisnik TIK competition is held for senior high school, vocational school and college students in Indonesia. Where participants coordinate with their teammates in making business ideas, start-ups, and business development oriented to IT products and present the results of their ideas to the judges. This activity is planned for Feb 17th 2022, along with the DinusFest event.</h2>
         </div>
     </div>
     <div class="rulebook">
