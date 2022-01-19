@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/itc_2022/';
+    public $baseURL = 'https://ilhamnr.github.io/itc/';
 
     /**
      * --------------------------------------------------------------------------
