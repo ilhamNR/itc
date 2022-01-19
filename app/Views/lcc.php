@@ -31,7 +31,7 @@ background-position: left, right, center;
         </div>
     </div>
     <div class="rulebook">
-      <a href="#" data-aos="fade-up" style="border: 6px solid #03e9f4;">
+      <a href="https://drive.google.com/file/d/1vqz78maAx5s7aLcmwPNbCgrXOmcCfpFG/view?usp=sharing" data-aos="fade-up" style="border: 6px solid #03e9f4;">
         <span></span>
         <div class="button">
           RULEBOOK

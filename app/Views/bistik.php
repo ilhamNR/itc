@@ -29,7 +29,7 @@ background-position: left, right, center;
         </div>
     </div>
     <div class="rulebook">
-        <a href="#" data-aos="fade-up" style="border: 6px solid #03e9f4;">
+        <a href="https://drive.google.com/file/d/1H2S70O9AGY294MHVRLQSZ5ItJ3NpxeSq/view?usp=sharing" data-aos="fade-up" style="border: 6px solid #03e9f4;">
           <span></span>
           <div class="button">
             RULEBOOK
@@ -79,7 +79,7 @@ background-position: left, right, center;
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">19 - 06</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 07</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Registration </h1>
@@ -87,7 +87,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">19d - 07</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 07</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Submission</h1>
