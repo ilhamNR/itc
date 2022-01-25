@@ -29,7 +29,7 @@ background-position: left, right, center;
         </div>
     </div>
     <div class="rulebook">
-        <a href="https://drive.google.com/file/d/1H2S70O9AGY294MHVRLQSZ5ItJ3NpxeSq/view?usp=sharing" target="_blank" data-aos="fade-up" style="border: 6px solid #03e9f4;">
+        <a href="<?= base_url("assets/berkas/JUKLAK_JUKNIS_BISTIK_2022.pdf") ?>" target="_blank" data-aos="fade-up" style="border: 6px solid #03e9f4;">
           <span></span>
           <div class="button">
             RULEBOOK
@@ -40,7 +40,7 @@ background-position: left, right, center;
         <div class="box" data-aos="fade-up">
             <img src="<?= base_url() ?>/assets/img/calender.svg" style="width: 100px;">
             <span class="scheduletext" style="text-align: left;
-            font-size: 27px;">16 FEBRUARY 2021</span>
+            font-size: 27px;">16 FEBRUARY 2022</span>
         </div>
         <div style="display:flex" data-aos="fade-up">
             <div class="box">
@@ -95,29 +95,29 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
+                        <h2 class="date" style="font-size: 40px;">08</h2>
+                        <h2 class="date">February 2022</h2>
+                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
+                        <h1>Technical Meeting</h1>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
                         <h2 class="date" style="font-size: 30px;">08 - 14</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Qualification</h1>
                     </div>
                 </li>
-                <li>
+            </ul>
+            <ul style="
+            place-content: center;">
+             <li>
                     <div class="timeline-content">
                         <h2 class="date" style="font-size: 40px;">15</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Qualified Proposal Announcement</h1>
-                    </div>
-                </li>
-            </ul>
-            <ul style="
-            place-content: center;">
-                <li>
-                    <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">08</h2>
-                        <h2 class="date">February 2022</h2>
-                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
-                        <h1>Technical Meeting</h1>
                     </div>
                 </li>
                 <li>

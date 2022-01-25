@@ -31,7 +31,7 @@ background-position: left, right, center;
         </div>
     </div>
     <div class="rulebook">
-      <a href="https://drive.google.com/file/d/1vqz78maAx5s7aLcmwPNbCgrXOmcCfpFG/view?usp=sharing" target="_blank" data-aos="fade-up" style="border: 6px solid #03e9f4;">
+      <a href="<?= base_url("assets/berkas/JUKLAK_JUKNIS_LCC_2022.pdf") ?>" target="_blank" data-aos="fade-up" style="border: 6px solid #03e9f4;">
         <span></span>
         <div class="button">
           RULEBOOK
@@ -42,7 +42,7 @@ background-position: left, right, center;
         <div class="box" data-aos="fade-up">
             <img src="<?= base_url() ?>/assets/img/calender.svg" style="width: 100px;">
             <span class="scheduletext" style="text-align: left;
-            font-size: 27px;">16 FEBRUARY 2021</span>
+            font-size: 27px;">16 FEBRUARY 2022</span>
         </div>
         <div style="display:flex" data-aos="fade-up">
             <div class="box">
