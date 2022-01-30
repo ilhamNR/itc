@@ -44,10 +44,14 @@
 
         .heading-content {
             font-size: 0.9vw;
+            margin: 0;
+            padding: 0;
         }
 
         .heading-address {
             font-size: 0.7vw;
+            margin: 0;
+            padding: 0;
         }
         
         .button {
@@ -74,10 +78,10 @@
         }
 
         /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
-        @media only screen and (min-device-width: 280px) and (max-device-width: 420px) {
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
             u~div .email-container {
-                min-width: 280px !important;
-                max-width: 420px !important;
+                min-width: 320px !important;
+                max-width: 374px !important;
             }
 
             h1 {
@@ -101,20 +105,24 @@
                 font-size: 0.3vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
 
             .heading-address {
                 font-size: 0.1vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
         }
 
         /* iPhone 6, 6S, 7, 8, and X */
-        @media only screen and (min-device-width: 335px) and (max-device-width: 600px) {
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
             u~div .email-container {
-                min-width: 335px !important;
-                max-width: 600px !important;
+                min-width: 375px !important;
+                max-width: 413px !important;
             }
 
             h1 {
@@ -138,19 +146,23 @@
                 font-size: 0.4vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
 
             .heading-address {
                 font-size: 0.2vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
         }
 
         /* iPhone 6+, 7+, and 8+ */
-        @media only screen and (min-device-width: 374px) {
+        @media only screen and (min-device-width: 414px) {
             u~div .email-container {
-                min-width: 374px !important;
+                min-width: 414px !important;
                 max-width: 600px !important;
             }
 
@@ -175,12 +187,16 @@
                 font-size: 0.5vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
 
             .heading-address {
                 font-size: 0.3vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
         }
 
@@ -211,12 +227,16 @@
                 font-size: 0.8vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
 
             .heading-address {
                 font-size: 0.6vw;
                 text-decoration: none;
                 color: #33475b;
+                margin: 0;
+                padding: 0;
             }
         }
 
@@ -225,6 +245,33 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             color: #CBD6E2;
+        }
+        
+        .lgx-social-footer {
+            font-size: 16px;
+            padding: 0;
+            margin-bottom: 5px;
+        }
+
+        .lgx-social-footer li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        .lgx-social-footer li a {
+            color: inherit;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .lgx-social-footer li a img {
+            font-size: 10px;
+            line-height: 25px;
         }
     </style>
 
@@ -235,17 +282,12 @@
     <div style="max-width: 600px; margin: 0 auto;" class="email-container">
 
         <!-- <! Banner -->
-        <table role="presentation" width="100%" style="background-image: url(https://itc.hmtiudinus.org/assets/img/bg.png); background-size: cover; text-align: center; padding: 50px;">
-            <tr>
-                <td>    
-                    <img alt="Flower"
-                        src="https://itc.hmtiudinus.org/assets/img/Group%20132.png"
-                        width="50%" align="middle">
-                </td>
-            </tr>
+        <table role="presentation" width="100%" style="background-image: url(https://itc.hmtiudinus.org/assets/img/bg.png); background-size: cover;">
             <tr>
                 <td>
-                    <h1 style="color: #ffffff; font-family: '04b', sans-serif;">Information Technology Competition 2022</h1>
+                    <a href="https://itc.hmtiudinus.org" target="_blank">
+                        <img src="https://itc.hmtiudinus.org/assets/img/Banner_Gform.png" width="100%" align="middle">
+                    </a>
                 </td>
             </tr>
         </table>
@@ -370,9 +412,9 @@
         </table>
 
         <!-- <! Banner Row -->
-        <table role="presentation" bgcolor="#EAF0F6" width="100%" style="padding: 30px 0 40px 0; text-align: center; margin-top: 20px;">
+        <table role="presentation" bgcolor="#EAF0F6" width="100%" style="padding: 20px 0 20px 0; text-align: center; margin-top: 20px;">
             <tr>
-                <td valign="top" width="33.333%">
+                <td valign="top" width="50%">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0"
                         width="100%">
                         <tr style="text-align: center;">
@@ -393,7 +435,7 @@
                         </tr>
                     </table>
                 </td>
-                <td valign="top" width="33.333%" style="padding-right: 2.5em;">
+                <td valign="top" width="50%" style="padding-right: 2.5em;">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0"
                         width="100%">
                         <tr>
@@ -415,18 +457,36 @@
                     </table>
                 </td>
             </tr>
+            <tr style="text-align: center;">
+                <td valign="top" width="100%" colspan="2" style="padding-top: 20px; text-align: center;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <center>
+                            <tr style="text-align: center;">
+                                <td>
+                                    <ul class="lgx-social-footer">
+                                        <li><a href="https://instagram.com/hmtiudinus" target="_blank"><img width="24" height="24" src="https://i.imgur.com/mh3MzHb.png"></a></li>
+                                        <li><a href="https://www.facebook.com/hmti.udinus" target="_blank"><img width="24" height="24" src="https://i.imgur.com/LQq84i4.png"></a></li>
+                                        <li><a href="https://twitter.com/hmtiudinus" target="_blank"><img width="24" height="24" src="https://i.imgur.com/rIqyZSM.png"></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UChy5zR4ZGqUz6NKkLBeqdiQ/" target="_blank"><img width="24" height="24" src="https://i.imgur.com/rXoKQMT.png"></a></li>
+                                    </ul>
+                                    <p class="heading-content" style="color: #33475b;">
+                                        <a class="heading-content" href="https://wa.me/6282135669672" style="color: #33475b;">+62 821 3566 9672</a>
+                                    </p>
+                                    <p class="heading-content" style="color: #33475b;">
+                                        &copy; <script>document.write(new Date().getFullYear())</script> HMTI UDINUS - All Rights Reserved
+                                    </p>
+                                </td>
+                            </tr>
+                        </center>
+                    </table>
+                </td>
+            </tr>
         </table>
-        <table role="presentation" width="100%" style="background-color: #e0eaf5; padding: 5px 0 10px 0;">
+        <table role="presentation" width="100%" style="background-color: #e0eaf5; padding: 10px 0 10px 0;">
             <tr>
                 <td align="center">
                     <p class="heading-content" style="color: #33475b;">
                         <a class="heading-content" href="https://hmtiudinus.org/" style="color: #33475b;">hmtiudinus.org</a>
-                    </p>
-                    <p class="heading-content" style="color: #33475b;">
-                        <a class="heading-content" href="https://wa.me/6282135669672" style="color: #33475b;">+62 821 3566 9672</a>
-                    </p>
-                    <p class="heading-content" style="color: #33475b;">
-                        &copy; 2022 ITC - All Rights Reserved
                     </p>
                     <p class="heading-address" style="color: #33475b;">
                         <a class="heading-address" href="https://goo.gl/maps/DnrPRX6KHtmGTkkP9" style="color: #33475b;">[COMPANY_FULL_ADDRESS]</a>
