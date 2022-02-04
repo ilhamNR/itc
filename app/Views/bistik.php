@@ -11,7 +11,7 @@
 
 <body data-aos="fade-right" style="width:100%;text-align:center; background-image: url(<?= base_url() ?>/assets/img/kiridetail.svg),
 url(<?= base_url() ?>/assets/img/kanandetail.svg), url(<?= base_url() ?>/assets/img/bgdetail.svg);
-background-repeat: repeat-y, repeat-y, no-repeat;
+background-repeat: repeat-y, repeat-y, repeat-y;
 background-position: left, right, center;
   background-position: left, right, center;
   background-size: cover,cover,150%;">
@@ -162,10 +162,8 @@ background-position: left, right, center;
                 </div>
               </a>
         </div>
-      <footer id="faq" class="footer">
-        <div class="isi">
-        <div class="medpart">
-          <h4>Media Partner</h4>
+        <div class="medpart" data-aos="fade-up">
+          <h4 style="padding-top: 23px;">Media Partner</h4>
           <div class="medpartlogo">
           <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
           <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
@@ -186,6 +184,9 @@ background-position: left, right, center;
             <img src="<?= base_url() ?>/assets/img/medpart/hmptiuksw.png">
             <img src="<?= base_url() ?>/assets/img/medpart/himforma_upgris.png">
           </div>
+        </div>
+      <footer id="faq" class="footer">
+        <div class="isi">
           <div class="row rowfooter">
             <div class="footer-col">
               <h4>Contact Person</h4>
