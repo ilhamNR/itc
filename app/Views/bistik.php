@@ -3,6 +3,9 @@
 
 <head>
     <title>Bisnis TIK ITC 2022</title>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -183,6 +186,10 @@ background-position: left, right, center;
             <img src="<?= base_url() ?>/assets/img/medpart/hmif.umn.png">
             <img src="<?= base_url() ?>/assets/img/medpart/hmptiuksw.png">
             <img src="<?= base_url() ?>/assets/img/medpart/himforma_upgris.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himati.unw.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/dpmfikudinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/dinus_robotic_club.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/Himatro.png">
           </div>
         </div>
       <footer id="faq" class="footer">

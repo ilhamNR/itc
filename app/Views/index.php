@@ -3,6 +3,9 @@
 
 <head>
   <title>Information Technology Competition 2022</title>
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
