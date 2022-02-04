@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://testing12428.000webhostapp.com/';
+    public $baseURL = 'http://itc22.test/';
 
     /**
      * --------------------------------------------------------------------------

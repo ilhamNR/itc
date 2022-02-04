@@ -597,9 +597,24 @@ select::-ms-expand {
   }
   
   .medpart{
-    padding-block: 33px;
+    padding-block: 10px;
+    margin-inline: 60px;
+  }
+  .medpart h4{
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+      text-align: center;
   }
   .medpartlogo img{
     width: 80px;
+    display: inline;
+    padding: 10px;
+  }
+  .medpartlogo{
+    text-align: -webkit-center;
   }
   
