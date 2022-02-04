@@ -11,7 +11,7 @@
 
 <body data-aos="fade-right" style="width:100%;text-align:center; background-image: url(<?= base_url() ?>/assets/img/kiridetail.svg),
 url(<?= base_url() ?>/assets/img/kanandetail.svg), url(<?= base_url() ?>/assets/img/bgdetail.svg);
-background-repeat: repeat-y, repeat-y, no-repeat;
+background-repeat: repeat-y, repeat-y, repeat-y;
 background-position: left, right, center;
   background-position: left, right, center;
   background-size: cover,cover,150%;">
@@ -42,7 +42,7 @@ background-position: left, right, center;
         <div class="box" data-aos="fade-up">
             <img src="<?= base_url() ?>/assets/img/calender.svg" style="width: 100px;">
             <span class="scheduletext" style="text-align: left;
-            font-size: 27px;">FEBRUARY, 16<sup>th</sup> 2022</span>
+            font-size: 27px; display: inline;">FEBRUARY, 16<sup>th</sup> 2022</span>
         </div>
         <div style="display:flex" data-aos="fade-up">
             <div class="box">

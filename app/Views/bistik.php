@@ -40,7 +40,7 @@ background-position: left, right, center;
         <div class="box" data-aos="fade-up">
             <img src="<?= base_url() ?>/assets/img/calender.svg" style="width: 100px;">
             <span class="scheduletext" style="text-align: left;
-            font-size: 27px;">FEBRUARY, 17<sup>th</sup> 2022</span>
+            font-size: 27px; display: inline;">FEBRUARY, 17<sup>th</sup> 2022</span>
         </div>
         <div style="display:flex" data-aos="fade-up">
             <div class="box">

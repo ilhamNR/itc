@@ -462,6 +462,7 @@ select::-ms-expand {
     font-family: "04B_30";
     display: flex;
     align-items: center;
+    margin-top: 10px;
   }
 
   .footer{
