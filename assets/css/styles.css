@@ -595,3 +595,11 @@ select::-ms-expand {
     transform: translate(-50%, -50%);
     margin: 10px;
   }
+  
+  .medpart{
+    padding-block: 33px;
+  }
+  .medpartlogo img{
+    width: 80px;
+  }
+  
