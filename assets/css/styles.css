@@ -610,11 +610,13 @@ select::-ms-expand {
       text-align: center;
   }
   .medpartlogo img{
-    width: 80px;
+    width: 125px;
     display: inline;
     padding: 10px;
+    vertical-align: middle;
   }
   .medpartlogo{
     text-align: -webkit-center;
+    margin-block: 30px ;
   }
   
