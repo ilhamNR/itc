@@ -82,7 +82,7 @@ background-position: left, right, center;
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">19 - 07</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 14</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Registration </h1>
@@ -90,7 +90,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">19 - 07</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 14</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Submission</h1>
@@ -98,7 +98,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">08</h2>
+                        <h2 class="date" style="font-size: 40px;">15</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Technical Meeting</h1>
@@ -106,7 +106,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">08 - 14</h2>
+                        <h2 class="date" style="font-size: 30px;">08 - 15</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Qualification</h1>
@@ -115,14 +115,6 @@ background-position: left, right, center;
             </ul>
             <ul style="
             place-content: center;">
-             <li>
-                    <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">15</h2>
-                        <h2 class="date">February 2022</h2>
-                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
-                        <h1>Qualified Proposal Announcement</h1>
-                    </div>
-                </li>
                 <li>
                     <div class="timeline-content">
                         <h2 class="date" style="font-size: 40px;">16</h2>
@@ -190,6 +182,10 @@ background-position: left, right, center;
             <img src="<?= base_url() ?>/assets/img/medpart/dpmfikudinus.png">
             <img src="<?= base_url() ?>/assets/img/medpart/dinus_robotic_club.png">
             <img src="<?= base_url() ?>/assets/img/medpart/Himatro.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmdti_udinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/gdscudinus.png" style="width: 250px;">
+            <img src="<?= base_url() ?>/assets/img/medpart/geronimofm.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/LogoEY1.png">
           </div>
         </div>
       <footer id="faq" class="footer">
