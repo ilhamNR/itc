@@ -238,6 +238,11 @@ body {
     font-size: 40px;
   }
 }
+@supports (-webkit-touch-callout: none) {
+  .startbutton {
+    margin-top: 50%;
+}
+}
 
 @media (max-height: 999999px) {
   body {
@@ -457,6 +462,7 @@ select::-ms-expand {
     font-family: "04B_30";
     display: flex;
     align-items: center;
+    margin-top: 10px;
   }
 
   .footer{
@@ -595,3 +601,39 @@ select::-ms-expand {
     transform: translate(-50%, -50%);
     margin: 10px;
   }
+  
+  .medpart{
+    padding-block: 10px;
+    margin-inline: 60px;
+    background: rgba(230,230,230,0.5);
+    border: 6px solid #97DEF3;
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Rockwell";
+    margin-top: 66px;
+}
+  .medpart h4{
+      font-size: 40px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+      text-align: center;
+      text-align: center;
+      color: white;
+      text-shadow: 4px 3px black;
+      font-family: "04B_30";
+  }
+  .medpartlogo img{
+    width: 125px;
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+  }
+  .medpartlogo{
+    text-align: -webkit-center;
+    margin-block: 30px ;
+  }
+  

@@ -3,6 +3,9 @@
 
 <head>
     <title>Bisnis TIK ITC 2022</title>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -11,7 +14,7 @@
 
 <body data-aos="fade-right" style="width:100%;text-align:center; background-image: url(<?= base_url() ?>/assets/img/kiridetail.svg),
 url(<?= base_url() ?>/assets/img/kanandetail.svg), url(<?= base_url() ?>/assets/img/bgdetail.svg);
-background-repeat: repeat-y, repeat-y, no-repeat;
+background-repeat: repeat-y, repeat-y, repeat-y;
 background-position: left, right, center;
   background-position: left, right, center;
   background-size: cover,cover,150%;">
@@ -40,7 +43,7 @@ background-position: left, right, center;
         <div class="box" data-aos="fade-up">
             <img src="<?= base_url() ?>/assets/img/calender.svg" style="width: 100px;">
             <span class="scheduletext" style="text-align: left;
-            font-size: 27px;">FEBRUARY, 17<sup>th</sup> 2022</span>
+            font-size: 27px; display: inline;">FEBRUARY, 17<sup>th</sup> 2022</span>
         </div>
         <div style="display:flex" data-aos="fade-up">
             <div class="box">
@@ -79,7 +82,7 @@ background-position: left, right, center;
             <ul>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">19 - 07</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 14</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Registration </h1>
@@ -87,7 +90,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">19 - 07</h2>
+                        <h2 class="date" style="font-size: 30px;">19 - 14</h2>
                         <h2 class="date">January-<br>February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Submission</h1>
@@ -95,7 +98,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">08</h2>
+                        <h2 class="date" style="font-size: 40px;">15</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Technical Meeting</h1>
@@ -103,7 +106,7 @@ background-position: left, right, center;
                 </li>
                 <li>
                     <div class="timeline-content">
-                        <h2 class="date" style="font-size: 30px;">08 - 14</h2>
+                        <h2 class="date" style="font-size: 30px;">08 - 15</h2>
                         <h2 class="date">February 2022</h2>
                         <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
                         <h1>Proposal Qualification</h1>
@@ -112,14 +115,6 @@ background-position: left, right, center;
             </ul>
             <ul style="
             place-content: center;">
-             <li>
-                    <div class="timeline-content">
-                        <h2 class="date" style="font-size: 40px;">15</h2>
-                        <h2 class="date">February 2022</h2>
-                        <hr style="width:100%;border-color: #388BAF;background-color:#fff;height:2px; margin:0px;">
-                        <h1>Qualified Proposal Announcement</h1>
-                    </div>
-                </li>
                 <li>
                     <div class="timeline-content">
                         <h2 class="date" style="font-size: 40px;">16</h2>
@@ -161,6 +156,37 @@ background-position: left, right, center;
                   COLLEGE STUDENT REGISTRATION
                 </div>
               </a>
+        </div>
+        <div class="medpart" data-aos="fade-up">
+          <h4 style="padding-top: 23px;">Media Partner</h4>
+          <div class="medpartlogo">
+          <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/animasi_udinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmilkomudinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmsisfo_udinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/omahti_ugm.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/logoEJ1.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himmatisiusm.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himsi.uajy.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/dncc.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/mizanfebundip.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmtifuad.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himatifums.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmti.ukdw.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himatifunpad.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmif.umn.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmptiuksw.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himforma_upgris.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/himati.unw.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/dpmfikudinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/dinus_robotic_club.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/Himatro.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/hmdti_udinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/gdscudinus.png" style="width: 250px;">
+            <img src="<?= base_url() ?>/assets/img/medpart/geronimofm.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/LogoEY1.png">
+          </div>
         </div>
       <footer id="faq" class="footer">
         <div class="isi">
