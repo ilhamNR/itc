@@ -125,7 +125,7 @@ position: fixed;">
   }
       
   function bistik() {
-    window.location.href = '<?= base_url("bisnis-tik") ?>';
+    window.location.href = '<?= base_url("lomba-bisnis-tik") ?>';
   }
 </script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

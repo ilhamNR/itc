@@ -33,7 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/lomba-cerdas-cermat', 'Lcc::lcc');
-$routes->get('/bisnis-tik', 'Bistik::bistik');
+$routes->get('/lomba-bisnis-tik', 'Bistik::bistik');
 
 /*
  * --------------------------------------------------------------------
