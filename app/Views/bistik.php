@@ -158,10 +158,16 @@ background-position: left, right, center;
               </a>
         </div>
         <div class="medpart" data-aos="fade-up">
+          <h4 style="padding-top: 23px;">Supported by:</h4>
+          <div class="medpartlogo">
+            <img src="<?= base_url() ?>/assets/img/sponsor/Logo CK Prod png.png">
+            <img src="<?= base_url() ?>/assets/img/sponsor/97164473_530450014289810_705650937615613952_n-removebg-preview.png">
+            <img src="<?= base_url() ?>/assets/img/sponsor/Logo+Bank+Jateng.png">
+          </div>
           <h4 style="padding-top: 23px;">Media Partner</h4>
           <div class="medpartlogo">
-          <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
-          <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
+            <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
             <img src="<?= base_url() ?>/assets/img/medpart/animasi_udinus.png">
             <img src="<?= base_url() ?>/assets/img/medpart/hmilkomudinus.png">
             <img src="<?= base_url() ?>/assets/img/medpart/hmsisfo_udinus.png">

@@ -135,36 +135,42 @@ background-position: left, right, center;
         </div>
       </a>
       <div class="medpart" data-aos="fade-up">
-      <h4 style="padding-top: 23px;">Media Partner</h4>
-          <div class="medpartlogo">
+        <h4 style="padding-top: 23px;">Supported by:</h4>
+        <div class="medpartlogo">
+          <img src="<?= base_url() ?>/assets/img/sponsor/Logo CK Prod png.png">
+          <img src="<?= base_url() ?>/assets/img/sponsor/97164473_530450014289810_705650937615613952_n-removebg-preview.png">
+          <img src="<?= base_url() ?>/assets/img/sponsor/Logo+Bank+Jateng.png">
+        </div>
+        <h4 style="padding-top: 23px;">Media Partner</h4>
+        <div class="medpartlogo">
           <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
           <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/animasi_udinus.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmilkomudinus.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmsisfo_udinus.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/omahti_ugm.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/logoEJ1.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/himmatisiusm.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/himsi.uajy.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/dncc.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/mizanfebundip.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmtifuad.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/himatifums.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmti.ukdw.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/himatifunpad.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmif.umn.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmptiuksw.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/himforma_upgris.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/himati.unw.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/dpmfikudinus.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/dinus_robotic_club.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/Himatro.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/hmdti_udinus.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/gdscudinus.png" style="width: 250px;">
-            <img src="<?= base_url() ?>/assets/img/medpart/geronimofm.png">
-            <img src="<?= base_url() ?>/assets/img/medpart/LogoEY1.png">
-          </div>
-          </div>
+          <img src="<?= base_url() ?>/assets/img/medpart/animasi_udinus.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmilkomudinus.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmsisfo_udinus.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/omahti_ugm.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/logoEJ1.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/himmatisiusm.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/himsi.uajy.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/dncc.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/mizanfebundip.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmtifuad.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/himatifums.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmti.ukdw.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/himatifunpad.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmif.umn.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmptiuksw.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/himforma_upgris.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/himati.unw.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/dpmfikudinus.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/dinus_robotic_club.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/Himatro.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/hmdti_udinus.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/gdscudinus.png" style="width: 250px;">
+          <img src="<?= base_url() ?>/assets/img/medpart/geronimofm.png">
+          <img src="<?= base_url() ?>/assets/img/medpart/LogoEY1.png">
+        </div>
+      </div>
       <footer id="faq" class="footer">
         <div class="isi">
           <div class="row rowfooter">
