@@ -68,7 +68,7 @@ background-position: left, right, center;
             <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; "data-aos="fade-up">TOTAL
                 GRANDPRIZE<br /></h5>
             <h5 style="text-align: center; font-size:62px; color: white; text-shadow: 10px 10px black; "data-aos="fade-up">IDR
-                4.500.000<br /></h5>
+                3.750.000<br /></h5>
                 <h5 style="text-align: center; font-size:42px; color: white; text-shadow: 0; font-family: 'Rockwell' "data-aos="fade-up" font-family: "Rockwell";>Free E-certificate and UDINUS Scholarship voucher*<br></h5>
         </div>
     </div>
