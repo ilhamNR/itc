@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://itc22.test/';/*localhost/itc*/
+    public $baseURL = 'http://localhost/itc/';/*localhost/itc*/
 
     /**
      * --------------------------------------------------------------------------

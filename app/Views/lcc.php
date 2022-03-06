@@ -197,16 +197,15 @@ background-position: left, right, center;
             <div class="footer-col">
               <h4>Follow Us</h4>
               <ul style="padding-left: 0px;">
-                <li><a href="https://www.instagram.com/hmtiudinus/" target="_blank"><i class="fab fa-instagram" style="padding-right:10px;"></i>Official Instagram HMTI</a></li>
-                <li><a href="https://hmtiudinus.org/" target="_blank"><i class="fa fa-globe" style="padding-right:10px;"></i>Official
-                    Website HMTI</a></li>
+                <li><a href="https://www.instagram.com/hmtiudinus/" target="_blank"><i class="fab fa-instagram" style="padding-right:10px;"></i>Instagram</a></li>
+                <li><a href="https://hmtiudinus.org/" target="_blank"><i class="fa fa-globe" style="padding-right:10px;"></i>Website</a></li>
               </ul>
             </div>
             
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; <script>document.write(new Date().getFullYear())</script><a href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #000000;"> HMTI UDINUS</a> - All rights reserved</p>
+          <p>&copy; <script>document.write(new Date().getFullYear())</script><ab href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #ffffff;"> HMTI UDINUS</ab> - All rights reserved</p>
         </div>
       </footer>
 </body>
