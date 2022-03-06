@@ -55,7 +55,7 @@ background-position: left, right, center;
 
             <div class="box" data-aos="fade-up">
                 <img src="<?= base_url() ?>/assets/img/time.svg" style="width: 100px;">
-                <span class="scheduletext">07:00 WIB</span>
+                <span class="scheduletext">07.00 WIB</span>
             </div>
 
         </div>
@@ -135,13 +135,13 @@ background-position: left, right, center;
         </div>
       </a>
       <div class="medpart" data-aos="fade-up">
-        <h4 style="padding-top: 23px;">Supported by:</h4>
+        <h4 style="padding-top: 23px;">Supported by :</h4>
         <div class="medpartlogo">
           <img src="<?= base_url() ?>/assets/img/sponsor/Logo CK Prod png.png">
           <img src="<?= base_url() ?>/assets/img/sponsor/97164473_530450014289810_705650937615613952_n-removebg-preview.png">
           <img src="<?= base_url() ?>/assets/img/sponsor/Logo+Bank+Jateng.png">
         </div>
-        <h4 style="padding-top: 23px;">Media Partner:</h4>
+        <h4 style="padding-top: 23px;">Media Partner :</h4>
         <div class="medpartlogo">
           <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
           <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
@@ -175,7 +175,7 @@ background-position: left, right, center;
         <div class="isi">
           <div class="row rowfooter">
             <div class="footer-col">
-              <h4>Narahubung</h4>
+              <h4>Contact Person</h4>
               <ul style="padding-left: 0px;">
                 <li><a href="https://api.whatsapp.com/send?phone=6281299886754"><i class="fa fa-phone" style="padding-right: 10px;"></i>0812-9988-6754 (Ilham)</a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=6285158813580"><i class="fa fa-phone" style="padding-right: 10px;"></i>0851-5881-3580 (Bagas)</a>
@@ -195,7 +195,7 @@ background-position: left, right, center;
                 </ul>
               </div>
             <div class="footer-col">
-              <h4>Follow us</h4>
+              <h4>Follow Us</h4>
               <ul style="padding-left: 0px;">
                 <li><a href="https://www.instagram.com/hmtiudinus/" target="_blank"><i class="fab fa-instagram" style="padding-right:10px;"></i>Official Instagram HMTI</a></li>
                 <li><a href="https://hmtiudinus.org/" target="_blank"><i class="fa fa-globe" style="padding-right:10px;"></i>Official
@@ -206,7 +206,7 @@ background-position: left, right, center;
           </div>
         </div>
         <div class="footer-bottom">
-          <p>copyright &copy;2022 <ab href="https://hmtiudinus.org/">HMTI</ab></p>
+          <p>&copy; <script>document.write(new Date().getFullYear())</script><a href="http://hmtiudinus.org" target="_blank" style="text-decoration: none; color: #000000;"> HMTI UDINUS</a> - All rights reserved</p>
         </div>
       </footer>
 </body>
