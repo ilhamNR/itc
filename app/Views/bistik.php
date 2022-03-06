@@ -164,7 +164,7 @@ background-position: left, right, center;
             <img src="<?= base_url() ?>/assets/img/sponsor/97164473_530450014289810_705650937615613952_n-removebg-preview.png">
             <img src="<?= base_url() ?>/assets/img/sponsor/Logo+Bank+Jateng.png">
           </div>
-          <h4 style="padding-top: 23px;">Media Partner</h4>
+          <h4 style="padding-top: 23px;">Media Partner:</h4>
           <div class="medpartlogo">
             <img src="<?= base_url() ?>/assets/img/medpart/LogoESMG1.png">
             <img src="<?= base_url() ?>/assets/img/medpart/bemfikudinus.png">
@@ -198,7 +198,7 @@ background-position: left, right, center;
         <div class="isi">
           <div class="row rowfooter">
             <div class="footer-col">
-              <h4>Contact Person</h4>
+              <h4>Narahubung</h4>
               <ul style="padding-left: 0px;">
                 <li><a href="https://api.whatsapp.com/send?phone=6281299886754"><i class="fa fa-phone" style="padding-right: 10px;"></i>0812-9988-6754 (Ilham)</a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=6285158813580"><i class="fa fa-phone" style="padding-right: 10px;"></i>0851-5881-3580 (Bagas)</a>
